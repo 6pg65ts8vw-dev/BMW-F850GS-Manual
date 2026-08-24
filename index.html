@@ -4,20 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#111820">
-<title>BMW F 850 GS K81 · Manual V4.2</title>
+<title>BMW F 850 GS K81 · Manual V4.3</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><div><h1>BMW F 850 GS K81</h1><p>Manual de taller interactivo · V4.2</p></div><button id="about">Ayuda</button></header>
+<header><div><h1>BMW F 850 GS K81</h1><p>Manual de taller interactivo · V4.3</p></div><div class="headActions"><button id="home" class="btn">🏠 Inicio</button><button id="about" class="btn">❔ Ayuda</button></div></header>
 <main>
 <section class="search">
 <input id="q" autocomplete="off" placeholder="¿Qué quieres hacer? Ej.: cambiar retenes de horquilla">
 <select id="cat"><option value="">Todos</option><option>motor</option><option>frenos</option><option>horquilla</option><option>suspension</option><option>rueda</option><option>electricidad</option><option>mantenimiento</option><option>pares</option></select>
-<button id="go">Buscar</button>
-<div class="chips"><button data-q="cambiar retenes de horquilla">Retenes de horquilla</button><button data-q="purgar freno trasero">Purgar freno</button><button data-q="cambiar aceite motor">Aceite motor</button><button data-q="par pinza freno delantero">Par pinza</button><button data-q="reglaje válvulas">Válvulas</button><button data-q="cojinete rueda trasera">Cojinete rueda</button></div>
+<button id="go">🔎 Buscar</button>
+<div class="chips"><button data-q="cambiar retenes de horquilla">🔧 Retenes de horquilla</button><button data-q="purgar freno trasero">🛑 Purgar freno</button><button data-q="cambiar aceite motor">🛢️ Aceite motor</button><button data-q="par pinza freno delantero">🔩 Par pinza</button><button data-q="reglaje válvulas">⚙️ Válvulas</button><button data-q="cojinete rueda trasera">🛞 Cojinete rueda</button></div>
 </section>
-<section class="layout"><div><div id="status" class="status">Escribe una búsqueda o elige una tarea.</div><div id="results"></div></div><aside id="viewer"><div class="empty">Selecciona un resultado para ver su ficha de trabajo y la página original.</div></aside></section>
-</main>
-<dialog id="dlg"><h2>BMW F 850 GS · V4.2</h2><p>El buscador trabaja sobre las 974 páginas del manual. Reconoce términos habituales y vocabulario técnico equivalente. Cada resultado puede abrir una ficha de trabajo y la página original con sus esquemas.</p><p><b>Consejo:</b> escribe lo que quieres hacer, no necesitas conocer el nombre exacto que usa BMW.</p><button onclick="dlg.close()">Cerrar</button></dialog>
+<section class="layout"><div><div id="status" class="status">Escribe una búsqueda o elige una tarea.</div><div id="results"></div></div><aside id="viewer"><div class="empty">Selecciona un resultado para ver su ficha de taller y el manual original.</div></aside></section>
+</main><button id="topHome" class="homeFloat">🏠 Inicio</button>
+<dialog id="dlg"><h2>BMW F 850 GS · V4.3</h2><p>El buscador trabaja sobre las 974 páginas del manual. Reconoce términos habituales y vocabulario técnico equivalente. Cada resultado puede abrir una ficha de taller y el manual original con sus esquemas.</p><p><b>Consejo:</b> escribe lo que quieres hacer, no necesitas conocer el nombre exacto que usa BMW.</p><button onclick="dlg.close()">Cerrar</button></dialog>
 <script src="app.js"></script>
 </body></html>
