@@ -1,20 +1,17 @@
-# BMW F 850 GS K81 · Manual de taller interactivo V4.2
+# BMW F 850 GS K81 · Manual de taller interactivo V4.5
 
-Aplicación estática preparada para GitHub Pages. Incluye el manual completo dividido en 12 PDF, el índice de 974 páginas y un buscador por relevancia con sinónimos.
+Base: V4.4 de 206 MB con el manual completo dividido en 12 PDF y el índice de 974 páginas.
+
+## Funciones
+- Buscador por procedimientos: prioriza operaciones reales y evita simples menciones.
+- 🧠 Procedimiento inteligente: reúne trabajos previos, procedimiento principal y trabajos posteriores que el manual indica; permite generar un archivo HTML de la guía.
+- 🔩 Pestaña/buscador específico de pares de apriete, con página de origen y acceso directo al manual.
+- 🧰 Fichas de taller con herramientas especiales, códigos BMW, advertencias y pares detectados.
+- 📖 Apertura del PDF original.
+- 🏠 Inicio y navegación rápida.
+- 🗺️ La estructura está preparada para incorporar rutas esquemáticas de procedimiento como capa adicional.
 
 ## Publicar en GitHub Pages
-1. Crea un repositorio nuevo.
-2. Sube **todo el contenido de esta carpeta**, no la carpeta contenedora.
-3. Ve a Settings → Pages.
-4. En Source selecciona Deploy from a branch → `main` → `/ (root)`.
-5. Guarda y abre la URL que indique GitHub.
-
-## Actualizaciones
-Para una versión nueva, reemplaza los archivos de la versión anterior por los de la nueva. No es necesario crear otro repositorio.
-
-## Contenido
-- `index.html`: aplicación.
-- `app.js`: buscador y fichas de trabajo.
-- `style.css`: interfaz.
-- `data/index.json`: índice de las 974 páginas.
-- `manual/parte-01.pdf` … `parte-12.pdf`: manual completo.
+1. Sube todo el contenido de esta carpeta al repositorio.
+2. Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+3. No subas la carpeta contenedora, sino sus archivos y carpetas internas.
